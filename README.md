@@ -18,15 +18,16 @@ Packages used:
     
 Description of script files:
 ============================
-PullLinks.py: Loads links to a file (called as linkFile)
+1. PullLinks.py: Loads links to a file (called as linkFile)
 
-FetchDetailsOfWebsite_HyperThreaded.py: For each link read in step 1, load required details of a website and write to a csv file
+2. FetchDetailsOfWebsite_HyperThreaded.py: For each link read in step 1, load required details of a website and write to a csv file
 
-WebsiteAnalysis.py: Use Pandas to read csv file and do analysis, draw graphs
+3. WebsiteAnalysis.py: Use Pandas to read csv file and do analysis, draw graphs
 
 
 To Do:
   1. Add a parameter file to read required parameters so as to avoid messing with the code
+  2. Add a driver script which takes care of all the above mentioned 3 steps
 
 
 
